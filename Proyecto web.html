@@ -6,40 +6,110 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+        <style>
+
+            body{
+                height: auto;
+                width: 100%;
+            }
+
+            header {
+                height: 550px;
+                background-image: url(images/imagen-generada-con-IA-nanobanana.avif);
+            }
+
+            #Contacto{
+                height: 75px;   
+            }
+
+            #Iniciar-sesion{
+                height: 75px;
+            }
+
+            #Buscar{
+                height: 75px;
+            }
+
+            #marca_logo h1 {
+                font-size: 100px;
+            }
+
+            #logo_buscar{
+                width: 20px;
+            }
+
+            #caja_buscador{
+                width: 200px;
+            }
+
+        </style>
 
 
     </head>
 
     <body>
 
-        <header class="d-flex justify-content-between bg-danger align-items-center">
-            <div>
-                <a href="Proyecto web.html">
-                    <img src="images/2621351.png" class="w-25 h-25"></img>
+        <header class="d-flex justify-content-between bg-dark align-items-center w-100">
+
+            <div class="dropdown h-100">
+                <a class="btn btn-secondary dropdown-toggle position-absolute" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ver Categorías
                 </a>
 
-                <div class="w-100">
-                    <a href="Proyecto web.html"><h1>MIWEB</h1></a>
-                </div>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
             </div>
 
-            
-            <nav class="d-flex border w-100 h-100">
-                <div class="">
-                    <a href="About_Us">About Us</a>
+            <div id="marca_logo">
+                <a href="Proyecto web.html">
+                    <img src="images/" class="w-25 h-25"></img>
+                </a>
+
+                <a class="text-decoration-none text-white" href="Proyecto web.html">
+                    <h1 id="marca">mimarca</h1>
+                </a>
+            </div>
+
+            <nav class="d-flex w-50 h-100">
+
+                <div id="Contacto" class="border-bottom rounded-2 p-4 bg-dark opacity-75">
+                    <a class="text-decoration-none text-white" href="Contactanos">Contactanos</a>
                 </div>
-                <div>
-                    <a href="Pricing">Pricing</a>
+                <div id="Iniciar-sesion" class="border-bottom rounded-2 p-4 bg-dark opacity-75 ms-4">
+                    <a class="text-decoration-none text-white" href="Iniciar-sesion">Iniciar Sesión</a>
                 </div>
-                <div>
-                    <a href="Download">Download</a>
+                  
+                <div id="Buscar" class="border-bottom p-4 container-fluid w-25 justify-content-end" role="search">
+                    <form class="d-flex" role="search">
+
+                        <input id="caja_buscador" class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"/>
+
+                        <button id="buscador" class="d-flex btn btn-outline-dark" type="submit">
+                            <img id="logo_buscar" src="images/buscar.png"></img>
+                            BUSCAR
+                        </button>
+
+                    </form>
                 </div>
+
             </nav>
+
         </header>
 
 
 
 
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
 
