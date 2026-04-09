@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+    <channel>
+        <item>
+            <title>Titular</title>
+            <link>https://web.com/articulo</link>
+            <description>Resumen del contenido</description>
+            <author>autor@webmasd.com (nombre)</author>
+        </item>
+        
+        <item>
+            <title>Titular</title>
+            <link>https://web.com/articulo</link>
+            <description>Resumen del contenido</description>
+            <author>autor@webmasd.com (nombre)</author>
+        </item>
+
+        <item>
+            <title>Titular</title>
+            <link>https://web.com/articulo</link>
+            <description>Resumen del contenido</description>
+            <author>autor@webmasd.com (nombre)</author>
+        </item>
+    </channel>
+
+</rss>

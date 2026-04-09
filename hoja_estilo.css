@@ -1,0 +1,88 @@
+            
+            body{
+                height: 650px;
+                width: 100%;
+            }
+
+            header {
+                height: 550px;
+                background-image: url(images/imagen-generada-con-IA-nanobanana.avif);
+            }
+
+            #Contacto{
+                height: 75px;   
+            }
+
+            #Iniciar-sesion{
+                height: 75px;
+            }
+
+            #Buscar{
+                height: 75px;
+            }
+
+            #marca_logo h1 {
+                font-size: 100px;
+            }
+
+            #logo_buscar{
+                width: 20px;
+            }
+
+            #caja_buscador{
+                width: 200px;
+            }
+
+            #primer_imagen{
+                margin-left: 25%;
+            }
+
+            #segunda_imagen{
+                margin-left: 25%;
+            }
+
+            #tercer_imagen{
+                margin-left: 25%;
+            }
+
+            #icono_iniciar{
+                width: 25px;
+            }
+
+            #contacto{
+                width: 25px;
+            }
+
+            #correo_logo{
+                width: 25px;
+            }
+
+            #github_logo{
+                width: 25px;
+            }
+
+            #instagram_logo{
+                width: 25px;
+            }
+
+            #Contacto a,
+            #Iniciar-sesion a {
+                color: white;
+                transition: 0.3s ease;
+            }
+
+            #contacto a:hover,
+            #Iniciar-sesion a:hover {
+                color: var(--bs-emphasis) 
+            }
+
+            #seguiren {
+                height: 10%;
+            }
+
+            footer h5 {
+                display: flex;
+                height: 25%;
+            }
+
+            
