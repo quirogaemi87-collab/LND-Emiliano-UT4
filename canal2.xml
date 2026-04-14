@@ -3,25 +3,38 @@
 <rss version="2.0">
 
     <channel>
+        <title>Noticias</title>
+        <link>https://proyecto-web.html</link>
+        <description>Estate al día con nosotros</description>
+
         <item>
-            <title>Titular</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
-        </item>
-        
-        <item>
-            <title>Titular</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
+            <title>Lanzamos nuestra nueva colección</title>
+            <link>https://web.com/nueva-coleccion</link>
+            <description>Presentamos una línea de ropa con diseños limpios, colores neutros y estilo elegante.</description>
+            <pubDate>viernes, 17 Abril 2026 09:00:00 GMT</pubDate>
+            <category>Lanzamientos</category>
+            <category>Colecciones</category>
+            <enclosure url="https://web.com/images/coleccion.jpg" type="image/jpeg"/>
         </item>
 
         <item>
-            <title>Titular</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
+            <title>Mejoras en la experiencia de compra online</title>
+            <link>https://web.com/mejoras-web</link>
+            <description>Hemos optimizado nuestra web para una navegación más rápida y sencilla.</description>
+            <pubDate>lunes, 20 Abril 2026 09:00:00 GMT</pubDate>
+            <category>Actualizaciones</category>
+            <category>Web</category>
+            <enclosure url="https://web.com/images/web.jpg" type="image/jpeg"/>
+        </item>
+
+        <item>
+            <title>Nueva política de envíos sostenibles</title>
+            <link>https://web.com/envios</link>
+            <description>Implementamos embalajes ecológicos y procesos más respetuosos con el medio ambiente.</description>
+            <pubDate>martes, 21 Abril 2026 09:00:00 GMT</pubDate>
+            <category>Empresa</category>
+            <category>Sostenibilidad</category>
+            <enclosure url="https://web.com/images/envio.jpg" type="image/jpeg"/>
         </item>
     </channel>
 

@@ -3,25 +3,38 @@
 <rss version="2.0">
 
     <channel>
+        <title>Ofertas destacadas</title>
+        <link>https://proyecto-web.html</link>
+        <description>Ofertas y promociones de la semana</description>
+
         <item>
-            <title>Ofertas</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
+            <title>30% de descuento en trajes</title>
+            <link>https://web.com/trajes</link>
+            <description>Descubre nuestra colección de trajes elegantes con líneas limpias y diseño moderno.</description>
+            <pubDate>martes, 14 Abril 2026 10:00:00 GMT</pubDate>
+            <category>Elegante</category>
+            <category>Ropa formal</category>
+            <enclosure url="https://web.com/images/traje.jpg" type="image/jpeg"/>
         </item>
 
         <item>
-            <title>Titular</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
+            <title>Rebajas en camisas blancas premium</title>
+            <link>https://web.com/camisas-premium</link>
+            <description>Camisas minimalistas de alta calidad con descuento por tiempo limitado.</description>
+            <pubDate>miercoles, 15 Abril 2026 12:00:00 GMT</pubDate>
+            <category>Minimalista</category>
+            <category>Ofertas semanales</category>
+            <enclosure url="https://web.com/images/camisa.jpg" type="image/jpeg"/>
         </item>
 
         <item>
-            <title>Titular</title>
-            <link>https://web.com/articulo</link>
-            <description>Resumen del contenido</description>
-            <author>autor@webmasd.com (nombre)</author>
+            <title>2x1 en accesorios</title>
+            <link>https://web.com/accesorios</link>
+            <description>Complementa tu outfit con accesorios elegantes y discretos.</description>
+            <pubDate>jueves, 16 Abril 2026 14:00:00 GMT</pubDate>
+            <category>Accesorios</category>
+            <category>Minimalismo</category>
+            <enclosure url="https://web.com/images/accesorios.jpg" type="image/jpeg"/>
         </item>
     </channel>
 
